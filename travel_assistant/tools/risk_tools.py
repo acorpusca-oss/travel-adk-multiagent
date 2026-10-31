@@ -18,7 +18,9 @@ def assess_basic_travel_risks(destination: str, season: str) -> dict:
         risks.append("Book hotels, trains and entrance tickets in advance.")
 
     if not risks:
-        risks.append("Check weather, local transport, health requirements and travel documentation.")
+        risks.append(
+    "Check weather, local transport, health requirements and travel documentation."
+)
 
     return {
         "status": "success",

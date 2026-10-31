@@ -2,7 +2,7 @@ from google.adk.agents import Agent
 
 itinerary_agent = Agent(
     name="itinerary_agent",
-    model="gemini-2.0-flash",
+    model="gemini-3.5-flash-lite",
     description="Creates day-by-day travel itineraries.",
     instruction="""
 You are a travel itinerary planner.
@@ -16,5 +16,9 @@ Rules:
 4. Consider rest time and realistic travel movement.
 5. Explain why the itinerary order makes sense.
 6. Keep the language simple for university students.
+5. Always answer in Spanish, even if the user 
+writes briefly or the data is in another language.
+Keep the original foreign phrases, 
+but explain their meaning in Spanish.
 """,
 )
