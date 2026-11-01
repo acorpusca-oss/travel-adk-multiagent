@@ -10,7 +10,7 @@ Laboratorio UCV de sistema multiagente de viajes con Google ADK.
 - Budget Agent
 - Risk Reviewer Agent
 
-## Instalación
+## Instalación de enverimen
 
 ```bash
 python -m venv .venv
